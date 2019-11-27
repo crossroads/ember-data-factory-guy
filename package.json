@@ -24,12 +24,12 @@
   "dependencies": {
     "broccoli-funnel": "^1.0.1",
     "broccoli-merge-trees": "^1.1.1",
-    "urijs": "~1.18.1"
+    "urijs": "~1.18.1",
+    "ember-data": "2.7.0-beta.3"
   },
   "devDependencies": {
     "active-model-adapter": "2.1.1",
     "broccoli-asset-rev": "^2.1.2",
-    "ember-cli": "^2.5.0",
     "ember-cli-app-version": "1.0.0",
     "ember-cli-babel": "latest",
     "ember-cli-content-security-policy": "0.5.0",
@@ -40,7 +40,6 @@
     "ember-cli-qunit": "2.0.2",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "1.2.0",
-    "ember-data": "2.7.0-beta.3",
     "ember-data-model-fragments": "~2.3.1",
     "ember-disable-prototype-extensions": "1.1.0",
     "ember-django-adapter": "1.1.2",
