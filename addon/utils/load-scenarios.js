@@ -15,7 +15,7 @@ const scenarioFileRegExp = new RegExp('/scenarios/main$');
  * @param container
  */
 export default function (container) {
-  let config = container.lookupFactory('config:environment') || {};
+  let config = Ember.getOwner(this).lookup('config:environment') || {};
   //  console.log('config', config, 'config.factoryGuy', config && config.factoryGuy);
   if (config.factoryGuy) {
     let [Scenario] = requireFiles(scenarioFileRegExp);
